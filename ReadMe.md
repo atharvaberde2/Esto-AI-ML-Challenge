@@ -1,11 +1,11 @@
-#requirements.txt:
+# requirements.txt:
 pandas
 numpy
 scikit-learn
 matplotlib
 
 
-#To Run:
+# To Run:
 python train.py
 
 
