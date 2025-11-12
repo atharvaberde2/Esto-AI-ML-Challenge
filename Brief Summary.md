@@ -1,6 +1,5 @@
 ## Data Issues & Fixes
 
-- Missing or inconsistent values were handled using imputation (SimpleImputer strategy can be applied if needed).
 - Checked for class imbalance; used stratified train-test split to preserve class proportions.
 - Removed the target column (high_risk) from features before training to prevent data leakage.
 - Encoded categorical columns (if any) using label encoding for compatibility with RandomForestClassifier.
